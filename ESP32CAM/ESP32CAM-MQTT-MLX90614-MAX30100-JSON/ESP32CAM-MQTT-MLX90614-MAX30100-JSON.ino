@@ -2,8 +2,9 @@
  * Programa del Detector de Síntomas COVID 
  * por: Hugo Escalpelo
  * Fecha: 30 de Agosto del 2022
+ * Modificado por:Laura del Rocio Balandran C.
  * 
- * Basado en:Optical SP02 Detection (SPK Algorithm) using the MAX30105 Breakout  
+ * Basado en: Optical SP02 Detection (SPK Algorithm) using the MAX30105 Breakout  
  * By: Nathan Seidle @ SparkFun Electronics  
  * Date: October 19th, 2016  
  * https://github.com/sparkfun/MAX30105_Breakout
@@ -12,7 +13,7 @@
  * para medir los principales indicadores de síntomas de COVID, los cuales
  * son ritmo cardiaco, temperatura y oxigenación en la sangre. Se enviará
  * un JSON por MQTT con todas las variables. Este programa es para el micro
- * controlador ESP32CAM
+ * controlador ESP32CAM, cada 4 segs lee 25 muestras del sensor MAX30100.
  * 
  * MAX30100     ESP32CAM
  * 5v-----------5V
